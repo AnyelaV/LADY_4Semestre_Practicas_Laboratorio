@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f4f8;
+    padding: 10px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background-color: white;
+    flex: 1;
+    min-width: 220px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    border-left: 5px solid;
+}
+
+.azul {
+    border-color: #3478db;
+}
+
+.verde {
+    border-color: #269b5b;
+}
+
+.naranja {
+    border-color: #e87526;
+}
+
+.rojo {
+    border-color: #d32f2f;
+}
+
+.icono {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-size: 15px;
+    color: #374151;
+    margin-bottom: 32px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #374151;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 13px;
+    color: #89919c;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 600px) {
+    .contenedor {
+        flex-direction: column;
+    }
+}
