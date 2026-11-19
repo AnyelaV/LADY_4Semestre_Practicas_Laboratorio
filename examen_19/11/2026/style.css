@@ -114,7 +114,7 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-.avatar {
+.avatar img {
     font-size: 24px;
     background-color: #e2e8f0;
     width: 45px;
@@ -239,14 +239,12 @@ body {
     color: #334155;
 }
 
-
 .col-codigo { flex: 1; }
 .col-equipo { flex: 2; }
 .col-area { flex: 2; }
 .col-estado { flex: 1.5; }
-.col-fecha { flex: 1.5; } /* Nueva columna */
+.col-fecha { flex: 1.5; } 
 
-/* Estilo para el input de la fecha */
 .input-fecha {
     padding: 6px 10px;
     border: 1px solid #cbd5e1;
